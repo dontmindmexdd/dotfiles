@@ -36,6 +36,9 @@ config.window_padding = {
 if wezterm.target_triple == "x86_64-pc-windows-msvc" then
 	config.default_prog = { "pwsh.exe", "-NoLogo" }
 	config.font_size = 15
+	config.freetype_load_target = "Normal"
+	config.freetype_render_target = "Normal"
+	config.window_decorations = "BORDER | RESIZE"
 end
 
 return config

@@ -5,4 +5,5 @@ if not vim.g.vscode then
   vim.o.termguicolors = true
   vim.o.background = "dark"
   vim.cmd("colorscheme catppuccin")
+  vim.cmd("set guifont=Iosevka:17")
 end
