@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 a97f5c06dc1a1d2fe1880dae2833423782b857c9 Denis Lupu <dlupu@Mac-dlupu-MBP.(none)> 1725972108 +0300	clone: from github.com:dontmindmexdd/astro2lazy.git
+a97f5c06dc1a1d2fe1880dae2833423782b857c9 d7c188a3eebde584818e20ef7c4251c9e2455715 Denis Lupu <foolcat@protonmail.ch> 1725978971 +0300	commit: init
+d7c188a3eebde584818e20ef7c4251c9e2455715 fa40ac2b555620bb55357369a6a76c516099af48 Denis Lupu <foolcat@protonmail.ch> 1726129239 +0300	commit: v1
+fa40ac2b555620bb55357369a6a76c516099af48 81370827ab5e33573f83de243756f5d1c0c92f10 Denis Lupu <foolcat@protonmail.ch> 1726430426 +0300	commit: theme
+81370827ab5e33573f83de243756f5d1c0c92f10 21dbcdb014abf3e33d2e8d5713fcd57e9ee2f0b5 Denis Lupu <foolcat@protonmail.ch> 1727693838 +0300	commit: themes
+21dbcdb014abf3e33d2e8d5713fcd57e9ee2f0b5 38631ad81e1650b8c0e8de3fd566401efb6cb485 Denis Lupu <foolcat@protonmail.ch> 1727693889 +0300	pull (start): checkout 38631ad81e1650b8c0e8de3fd566401efb6cb485
+38631ad81e1650b8c0e8de3fd566401efb6cb485 7bf344e26d978711301011fbfba08235bf5d5947 Denis Lupu <foolcat@protonmail.ch> 1727693919 +0300	rebase (continue): themes
+7bf344e26d978711301011fbfba08235bf5d5947 7bf344e26d978711301011fbfba08235bf5d5947 Denis Lupu <foolcat@protonmail.ch> 1727693921 +0300	rebase (finish): returning to refs/heads/main
+7bf344e26d978711301011fbfba08235bf5d5947 f908f5839baba961558d40e90a24fb3a4ff6c20a Denis Lupu <foolcat@protonmail.ch> 1727693970 +0300	commit: lock
+f908f5839baba961558d40e90a24fb3a4ff6c20a fca167b3f64ab32f70e39633f7bceff79c4970c9 Denis Lupu <foolcat@protonmail.ch> 1729257024 +0300	commit: cmp config and some themes
+fca167b3f64ab32f70e39633f7bceff79c4970c9 1cd237aa6469190b7f22ddd6ea248d3d8cfd37ef Denis Lupu <foolcat@protonmail.ch> 1729524169 +0300	commit: cmp keys
