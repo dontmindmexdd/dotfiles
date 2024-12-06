@@ -4,6 +4,6 @@ require("config.lazy")
 if not vim.g.vscode then
   vim.o.termguicolors = true
   vim.o.background = "dark"
-  vim.cmd("colorscheme catppuccin")
+  vim.cmd("colorscheme nightfox")
   vim.cmd("set guifont=Iosevka:17")
 end
