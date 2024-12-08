@@ -33,12 +33,12 @@ config.window_padding = {
 	bottom = 0,
 }
 
-if wezterm.target_triple == "x86_64-pc-windows-msvc" then
-	config.default_prog = { "pwsh.exe", "-NoLogo" }
+if wezterm.target_triple:find("windows") then
 	config.font_size = 15
+	config.default_prog = { "pwsh.exe", "-NoLogo" }
 	config.freetype_load_target = "Normal"
 	config.freetype_render_target = "Normal"
-	config.window_decorations = "BORDER | RESIZE"
+	config.window_decorations = "TITLE | RESIZE"
 end
 
 return config
