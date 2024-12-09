@@ -21,10 +21,7 @@ return {
 
   -- COLORSCHEMES
   {
-    "xiantang/darcula-dark.nvim",
-    dependencies = {
-      "nvim-treesitter/nvim-treesitter",
-    },
+    "doums/darcula",
   },
   {
     "NTBBloodbath/doom-one.nvim",
