@@ -281,16 +281,7 @@ return {
   },
 
   {
-    "zbirenbaum/copilot-cmp",
-    enabled = false,
-  },
-
-  {
-    "zbirenbaum/copilot.lua",
-    opts = {
-      suggestion = {
-        enabled = true,
-      },
-    },
+    "github/copilot.vim",
+    build = ":Copilot setup",
   },
 }
