@@ -282,11 +282,5 @@ return {
 
   {
     "github/copilot.vim",
-    opts = {},
-  },
-
-  {
-    "zbirenbaum/copilot.lua",
-    opts = {},
   },
 }
