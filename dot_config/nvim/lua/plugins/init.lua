@@ -21,6 +21,13 @@ return {
 
   -- COLORSCHEMES
   {
+    "Shatur/neovim-ayu",
+    opts = {
+      mirage = false,
+      terminal = true,
+    },
+  },
+  {
     "NTBBloodbath/doom-one.nvim",
     config = function()
       -- Add color to cursor
