@@ -21,13 +21,10 @@ return {
 
   -- COLORSCHEMES
   {
-    "Shatur/neovim-ayu",
-    config = function()
-      require("ayu").setup({
-        mirage = true,
-        terminal = false,
-      })
-    end,
+    "xiantang/darcula-dark.nvim",
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+    },
   },
   {
     "NTBBloodbath/doom-one.nvim",

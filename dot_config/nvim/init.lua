@@ -5,6 +5,6 @@ if not vim.g.vscode then
   vim.o.termguicolors = true
   vim.o.background = "dark"
   vim.g.ai_cmp = false
-  vim.cmd("colorscheme ayu")
+  vim.cmd("colorscheme darkula-dark")
   vim.cmd("set guifont=Iosevka:17")
 end
