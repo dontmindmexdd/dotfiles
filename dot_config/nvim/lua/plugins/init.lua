@@ -20,6 +20,7 @@ return {
   { "typicode/bg.nvim", lazy = false, config = function() end },
 
   -- COLORSCHEMES
+  { "savq/melange-nvim" },
   {
     "xiantang/darcula-dark.nvim",
     dependencies = {
