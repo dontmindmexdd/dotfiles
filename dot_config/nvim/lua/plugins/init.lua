@@ -280,7 +280,5 @@ return {
     },
   },
 
-  { "blueyed/vim-diminactive" },
-
   { "nvim-treesitter/nvim-treesitter-context" },
 }
