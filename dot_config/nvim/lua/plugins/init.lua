@@ -22,10 +22,12 @@ return {
   -- COLORSCHEMES
   {
     "Shatur/neovim-ayu",
-    opts = {
-      mirage = false,
-      terminal = true,
-    },
+    config = function()
+      require("ayu").setup({
+        mirage = true,
+        terminal = false,
+      })
+    end,
   },
   {
     "NTBBloodbath/doom-one.nvim",
