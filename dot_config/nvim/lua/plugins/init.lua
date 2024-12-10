@@ -25,7 +25,7 @@ return {
   } },
   { "savq/melange-nvim" },
   {
-    "xiantang/darcula-dark.nvim",
+    "dontmindmexdd/darcula-dark.nvim",
     dependencies = {
       "nvim-treesitter/nvim-treesitter",
     },
