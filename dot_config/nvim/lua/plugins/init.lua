@@ -20,6 +20,9 @@ return {
   { "typicode/bg.nvim", lazy = false, config = function() end },
 
   -- COLORSCHEMES
+  { "briones-gabriel/darcula-solid.nvim", dependencies = {
+    "rktjmp/lush.nvim",
+  } },
   { "savq/melange-nvim" },
   {
     "xiantang/darcula-dark.nvim",
