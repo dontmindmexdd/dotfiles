@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 config.font = wezterm.font_with_fallback({
-	{ family = "Iosevka", weight = "Medium" },
+	{ family = "Input Mono Compressed", weight = "Medium" },
 })
 config.font_size = 19
 
