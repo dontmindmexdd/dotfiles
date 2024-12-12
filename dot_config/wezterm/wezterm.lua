@@ -4,7 +4,7 @@ local config = wezterm.config_builder()
 config.font = wezterm.font_with_fallback({
 	{ family = "Input Mono Compressed", weight = "Regular" },
 })
-config.font_size = 19
+config.font_size = 18
 
 -- Text rendering settings
 config.front_end = "WebGpu" -- Use modern rendering engine
@@ -18,8 +18,8 @@ config.max_fps = 120
 
 -- Fine tune text rendering
 config.freetype_load_flags = "NO_HINTING" -- works more predictably and with fewer surprising artifacts
--- config.freetype_load_target = "Light"
--- config.freetype_render_target = "HorizontalLcd"
+config.freetype_load_target = "Light"
+config.freetype_render_target = "HorizontalLcd"
 config.cell_width = 1.0
 
 config.color_scheme = "Apple System Colors"
